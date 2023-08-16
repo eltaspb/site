@@ -246,7 +246,7 @@ input, select, textarea {
 	
 	h2.special {
 		font-size: 3rem;
-		line-height: 1;
+		line-height: 1.1;
 	}
 
 	h3 {
@@ -430,9 +430,9 @@ input, select, textarea {
 		}
 		
 		h2.special {
-		   font-size: 1.75rem;
+		   font-size: 2rem;
 		   letter-spacing: -0.01em;
-		   line-height: 1;
+		   line-height: 1.1;
 	    }
 
 		h3 {
@@ -2445,9 +2445,8 @@ input, select, textarea {
 /* Box */
 
 	.box {
-		background-color: #f2f0f1;
-		border: none;
-		padding: 2rem;
+		border-left: solid 1px;
+		padding: 0 0.6rem 0 0.6rem;
 	}
 
 		.box > :last-child,
@@ -2457,7 +2456,7 @@ input, select, textarea {
 		}
 
 	.box {
-		border-color: #1B1B2D;
+		border-color: #868690;
 	}
 
 /* Button */
@@ -7504,15 +7503,15 @@ input, select, textarea {
 			}
 
 		#wrapper > .color1 {
-			background-color: #dde9f7;
+			background-color: #e8e8ea;
 		}
 
 		#wrapper > .color2 {
-			background-color: #f2f0f1;
+			background-color: #d1d1d5;
 		}
 
 		#wrapper > .color3 {
-			background-color: #d2d1cf;
+			background-color: #a4a4ab;
 		}
 
 		#wrapper > .color4 {
