@@ -1,9 +1,17 @@
 @font-face {
+           font-family: Elta Sans Light;
+           src:url(../webfonts/Elta-Sans-Light.woff2) format('woff2');
+           font-display: swap;
+           font-style: normal;
+        }
+
+@font-face {
            font-family: Elta Sans Regular;
            src:url(../webfonts/Elta-Sans-Regular.woff2) format('woff2');
            font-display: swap;
            font-style: normal;
         }
+		
 @font-face {
            font-family: Elta Sans Medium;
            src:url(../webfonts/Elta-Sans-Medium.woff2) format('woff2');
@@ -196,8 +204,8 @@ input, select, textarea {
 		}
 
 	strong, b {
-		font-family: 'Elta Sans Regular', Helvetica, sans-serif;
-		font-weight: normal;
+		 font-family: 'Elta Sans Medium', Helvetica, sans-serif;
+		 font-weight: normal;
 	}
 
 	em, i {
@@ -227,6 +235,11 @@ input, select, textarea {
 		.upup {
 			text-transform: uppercase;
 			letter-spacing: 0;
+		}
+		
+		.light {
+			font-family: 'Elta Sans Light', Helvetica, sans-serif;
+		    font-weight: normal;
 		}
 		
 		.medium {
