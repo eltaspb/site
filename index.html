@@ -12,26 +12,33 @@
         <link rel="icon" type="image/png" sizes="16x16" href="imgs/support/favicon-16x16.png">
         <link rel="manifest" href="imgs/support/site.webmanifest">
         <style type="text/css">
+		#logotype {
+			position: relative;
+			float: left;
+			width: 7rem;
+		}
 		#logosymbol {
 			position: relative;
 			float: right;
-			width: 2.75rem;
+			width: 3rem;
 		}
 		#topmenu {
 			margin-top: 0.6rem;
 		}
 		#topmenu a {
-			color: rgba(27, 27, 45, 0.5);
+			font-size: 0.85rem;
+			color: rgba(27, 27, 45, 0.65);
 		}
 		#topmenu a:hover {
 			color: rgba(27, 27, 45, 1);
 		}
 		@media screen and (max-width: 736px) {
+		#logotype {
+			width: 7rem;
+		}
 		#logosymbol {
-			position: relative;
 			float: left;
 			width: 3rem;
-			padding-top: 1rem;
 		}
 
 	}
@@ -48,40 +55,32 @@
 						<div class="inner">
                             
                             <div class="row" style="margin-bottom:5rem;">
-										<div id="topmenu" class="col-2 col-6-small" style="margin-bottom:0">
+										<div id="topmenu" class="col-6 col-6-small" style="margin-bottom:0">
                                         
-                                             <a href="index.html"><span class="medium upup" style="color:rgba(27, 27, 45, 1);">Элта</span></a>
+                                             <a href="index.html"><span id="logotype" class="image fit"><img src="imgs/elta_logotype_v1_DB01.svg" onContextMenu="return false;" alt="" /></span></a>
+                                             <hr>
                                         
                                         </div>
-                                        <div id="topmenu" class="col-4 col-6-small">
+                                        <div id="topmenu" class="col-2 col-6-small">
                                         
-                                             <ul class="topmenu">
-                                                <li>&nbsp;</li>
-                                             </ul>
-                                             
-                                        </div>
-                                        <div id="topmenu" class="col-3 col-6-small">
-                                        
-                                             <ul class="topmenu">
+                                             <ul class="topmenu upup">
                                                 <li><a href="#about_us" class="smooth-scroll">О нас</a></li>
                                                 <li><a href="#service" class="smooth-scroll">Наши услуги</a></li>
-                                                <li><a href="projects.html">Реализованные объекты</a></li>
-                                                <li><a href="docs.html">Допуски и лицензии</a></li>
-                                                <li><a href="recomendations.html">Рекомендации</a></li>
+                                                <li><a href="#pluses" class="smooth-scroll">Преимущества</a></li>
+                                                <li><a href="#partners" class="smooth-scroll">Наши партнеры</a></li>
                                              </ul>
                                              
                                         </div>
-                                        <div id="topmenu" class="col-2 col-12-small">
+                                        <div class="col-1 off-6-small">
+                                        </div>
+                                        <div id="topmenu" class="col-2 col-6-small">
                                         
-                                             <ul class="topmenu">
+                                             <ul class="topmenu upup">
+                                                <li><a href="projects.html">Реализованные объекты</a></li>
+                                                <li><a href="docs.html">Допуски и лицензии</a></li>
                                                 <li><a href="vacancies.html">Вакансии</a></li>
                                                 <li><a href="contacts.html">Контакты</a></li>
                                              </ul>
-                                             
-                                        </div>
-                                        <div class="col-1 col-12-small">
-                                        
-                                             <span id="logosymbol" class="image fit"><img src="imgs/elta_symbol_E04.svg" onContextMenu="return false;" alt="" /></span>
                                              
                                         </div>
 						    </div>
@@ -98,7 +97,9 @@
                                         </div>
                                         <div class="col-10 col-12-small">
                                         
-                                             <h1 class="medium upup"><br><br>Комплексное проектирование и монтаж инженерных систем</h1>
+                                             <h1 class="medium upup"><br><br>Комплексное проектирование,
+монтаж и обслуживание
+инженерных систем</h1>
                                         
                                         </div>
                             </div>
@@ -108,10 +109,7 @@
                                         </div>
                                         <div class="col-6 col-12-small">
                                         
-                                             <h3><br><br>Компания «Элта» была основана в 2005 году в Санкт-Петербурге как предприятие, специализирующееся на проектировании и монтаже инженерных систем любой сложности.<br><br></h3>
-                                             <ul class="action" style="margin-top:0.5rem;">
-                                                <a class="button smooth-scroll" href="#application"><li>Оставить заявку</li></a>
-                                              </ul>
+                                             <h3><br><br>Компания «Элта» была основана в 2005 году в Санкт-Петербурге как предприятие, специализирующееся на проектировании, монтаже и обслуживании инженерных систем любой сложности.<br><br></h3>
                                         
                                         </div>
                             </div>
@@ -131,7 +129,7 @@
                                         </div>
                                         <div class="col-5 col-12-small">
                                         
-                                             <h1><br><br>О нашей компании<br></h1>
+                                             <h2 class="special medium upup"><br><br>О нашей компании<br></h2>
                                         
                                         </div>
                             </div>
@@ -166,7 +164,7 @@
                                         </div>
                                         <div class="col-5 col-12-small">
                                         
-                                             <h1><br><br>Наши услуги<br></h1>
+                                             <h2 class="special medium upup"><br><br>Наши услуги<br></h2>
                                         
                                         </div>
                             </div>
@@ -339,7 +337,7 @@
                      </section>
                     
                 <!-- PLUS -->
-					<section class="banner style5 invert orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right">
+					<section id="pluses" class="banner style5 color2 orient-left content-align-left image-position-center fullscreen onload-image-fade-in onload-content-fade-right">
 						<div class="content">
                             
                             <div class="row">
@@ -347,7 +345,7 @@
                                         </div>
                                         <div class="col-5 col-12-small">
                                         
-                                             <h1><br><br>Преимущества нашей компании<br><br></h1>
+                                             <h2 class="special medium upup"><br><br>Преимущества<br><br></h2>
                                         
                                         </div>
                             </div>
@@ -395,51 +393,152 @@
                         </div>
                      </section>
                     
-                <!-- APPLICATION -->
-					<section id="application" class="wrapper style1 invert color4 align-left">
+                
+                    
+                <!-- PARTNERS -->
+					<section id="service" class="wrapper style1 color1 align-left">
 						<div class="inner">
-                        
+                            
                             <div class="row">
                                         <div class="col-2 off-12-small">
                                         </div>
                                         <div class="col-5 col-12-small">
                                         
-                                             <h1><br><br>Заявка на проектирование или монтажные работы<br><br></h1>
+                                             <h2 class="special medium upup"><br><br>Наши партнеры<br><br></h2>
                                         
                                         </div>
                             </div>
+                            
                             <div class="row">
                                         <div class="col-2 off-12-small">
                                         </div>
-                                        <div class="col-8 col-12-small">
+                                        <div class="col-2 col-6-small">
                                         
-                                             <form method="post" action="#">
-								<div class="fields">
-									<div class="field half">
-										<label for="name">Имя</label>
-										<input type="text" name="name" id="name" value="" />
-									</div>
-									<div class="field half">
-										<label for="email">Email</label>
-										<input type="email" name="email" id="email" value="" />
-									</div>
-									<div class="field">
-										<label for="message">Сообщение</label>
-										<textarea name="message" id="message" rows="6"></textarea>
-									</div>
-								</div>
-								<ul>
-									<li><input type="submit" name="submit" id="submit" value="Отправить заявку" /></li>
-								</ul>
-							</form>
+                                             <span class="image fit"><img src="imgs/projects/elta_projects_metro_spb.png" onContextMenu="return false;" alt="" /></span>
                                         
                                         </div>
+                                        <div class="col-2 col-6-small">
                                         
+                                             <span class="image fit"><img src="imgs/projects/elta_projects_pulkovo.png" onContextMenu="return false;" alt="" /></span>
+                                        
+                                        </div>
+                                        <div class="col-2 col-6-small">
+                                        
+                                             <span class="image fit"><img src="imgs/projects/elta_projects_magna.png" onContextMenu="return false;" alt="" /></span>
+                                        
+                                        </div>
+                                        <div class="col-2 col-6-small">
+                                        
+                                             <span class="image fit"><img src="imgs/projects/elta_projects_etalon.png" onContextMenu="return false;" alt="" /></span>
+                                        
+                                        </div>
                             </div>
-                            <hr class="ends">
-
-						</div>
-					</section>
+                            
+                            <div class="row">
+                                        <div class="col-2 off-12-small">
+                                        </div>
+                                        <div class="col-2 col-6-small">
+                                        
+                                             <span class="image fit"><img src="imgs/projects/elta_projects_lukoil.png" onContextMenu="return false;" alt="" /></span>
+                                        
+                                        </div>
+                                        <div class="col-2 col-6-small">
+                                        
+                                             <span class="image fit"><img src="imgs/projects/elta_projects_gazprom_m.png" onContextMenu="return false;" alt="" /></span>
+                                        
+                                        </div>
+                                        <div class="col-2 col-6-small">
+                                        
+                                             <span class="image fit"><img src="imgs/projects/elta_projects_gazprom_g.png" onContextMenu="return false;" alt="" /></span>
+                                        
+                                        </div>
+                                        <div class="col-2 col-6-small">
+                                        
+                                             <span class="image fit"><img src="imgs/projects/elta_projects_gazprom_tg.png" onContextMenu="return false;" alt="" /></span>
+                                        
+                                        </div>
+                            </div>
+                            
+                            <div class="row">
+                                        <div class="col-2 off-12-small">
+                                        </div>
+                                        <div class="col-2 col-6-small">
+                                        
+                                             <span class="image fit"><img src="imgs/projects/elta_projects_expo.png" onContextMenu="return false;" alt="" /></span>
+                                        
+                                        </div>
+                                        <div class="col-2 col-6-small">
+                                        
+                                             <span class="image fit"><img src="imgs/projects/elta_projects_lenexpo.png" onContextMenu="return false;" alt="" /></span>
+                                        
+                                        </div>
+                                        <div class="col-2 col-6-small">
+                                        
+                                             <span class="image fit"><img src="imgs/projects/elta_projects_okt.png" onContextMenu="return false;" alt="" /></span>
+                                        
+                                        </div>
+                                        <div class="col-2 col-6-small">
+                                        
+                                             <span class="image fit"><img src="imgs/projects/elta_projects_maxidom.png" onContextMenu="return false;" alt="" /></span>
+                                        
+                                        </div>
+                            </div>
+                            
+                            <div class="row">
+                                        <div class="col-2 off-12-small">
+                                        </div>
+                                        <div class="col-2 col-6-small">
+                                        
+                                             <span class="image fit"><img src="imgs/projects/elta_projects_lenta.png" onContextMenu="return false;" alt="" /></span>
+                                        
+                                        </div>
+                                        <div class="col-2 col-6-small">
+                                        
+                                             <span class="image fit"><img src="imgs/projects/elta_projects_lensvet.png" onContextMenu="return false;" alt="" /></span>
+                                        
+                                        </div>
+                                        <div class="col-2 col-6-small">
+                                        
+                                             <span class="image fit"><img src="imgs/projects/elta_projects_toyota.png" onContextMenu="return false;" alt="" /></span>
+                                        
+                                        </div>
+                                        <div class="col-2 col-6-small">
+                                        
+                                             <span class="image fit"><img src="imgs/projects/elta_projects_mb.png" onContextMenu="return false;" alt="" /></span>
+                                        
+                                        </div>
+                            </div>
+                            
+                            <div class="row">
+                                        <div class="col-2 off-12-small">
+                                        </div>
+                                        <div class="col-2 col-6-small">
+                                        
+                                             <span class="image fit"><img src="imgs/projects/elta_projects_bmw.png" onContextMenu="return false;" alt="" /></span>
+                                        
+                                        </div>
+                                        <div class="col-2 col-6-small">
+                                        
+                                             <span class="image fit"><img src="imgs/projects/elta_projects_vw.png" onContextMenu="return false;" alt="" /></span>
+                                        
+                                        </div>
+                                        <div class="col-2 col-6-small">
+                                        
+                                             <span class="image fit"><img src="imgs/projects/elta_projects_por.png" onContextMenu="return false;" alt="" /></span>
+                                        
+                                        </div>
+                                        <div class="col-2 col-6-small">
+                                        
+                                             <span class="image fit"><img src="imgs/projects/elta_projects_honda.png" onContextMenu="return false;" alt="" /></span>
+                                        
+                                        </div>
+                            </div>
+                            <hr><hr>
+                            
+						
+                        
+                        </div>
+                     </section>
 
 
 				<!-- BOTTOM -->
@@ -455,8 +554,9 @@
                                         <div id="topmenu" class="col-4 col-12-small">
                                         
                                              <ul class="topmenu upup">
-                                                <li>Комплексное проектирование<br>
-                                                и монтаж инженерных систем</li>
+                                                <li>Комплексное проектирование,<br>
+                                                монтаж и обслуживание<br>
+                                                инженерных систем</li>
                                              </ul>
                                         
                                         </div>
@@ -479,7 +579,7 @@
                                         </div>
                                         <div class="col-1 col-12-small">
                                         
-                                             <span id="logosymbol" class="image fit"><img src="imgs/elta_symbol_w.svg" onContextMenu="return false;" alt="" /></span>
+                                             <span id="logosymbol" class="image fit"><img src="imgs/elta_symbol_INFOE01.svg" onContextMenu="return false;" alt="" /></span>
                                              
                                         </div>
 						    </div>

@@ -12,26 +12,33 @@
         <link rel="icon" type="image/png" sizes="16x16" href="imgs/support/favicon-16x16.png">
         <link rel="manifest" href="imgs/support/site.webmanifest">
         <style type="text/css">
+		#logotype {
+			position: relative;
+			float: left;
+			width: 7rem;
+		}
 		#logosymbol {
 			position: relative;
 			float: right;
-			width: 2.75rem;
+			width: 3rem;
 		}
 		#topmenu {
 			margin-top: 0.6rem;
 		}
 		#topmenu a {
-			color: rgba(27, 27, 39, 0.4);
+			font-size: 0.85rem;
+			color: rgba(27, 27, 45, 0.65);
 		}
 		#topmenu a:hover {
-			color: rgba(27, 27, 39, 1);
+			color: rgba(27, 27, 45, 1);
 		}
 		@media screen and (max-width: 736px) {
-        #logosymbol {
-			position: relative;
+		#logotype {
+			width: 7rem;
+		}
+		#logosymbol {
 			float: left;
 			width: 3rem;
-			padding-top: 1rem;
 		}
 
 	}
@@ -50,12 +57,13 @@
                             <div class="row" style="margin-bottom:5rem;">
 										<div id="topmenu" class="col-2 col-6-small" style="margin-bottom:0">
                                         
-                                             <a href="index.html"><span class="medium upup" style="color:rgba(27, 27, 45, 1);">Элта</span></a>
+                                             <a href="index.html"><span id="logotype" class="image fit"><img src="imgs/elta_logotype_v1_DB01.svg" onContextMenu="return false;" alt="" /></span></a>
+                                             <hr>
                                         
                                         </div>
                                         <div id="topmenu" class="col-4 col-6-small">
                                         
-                                             <ul class="topmenu">
+                                             <ul class="topmenu upup">
                                                 <li>Контакты</li>
                                              </ul>
                                              
@@ -63,17 +71,20 @@
                                         <div id="topmenu" class="col-3 col-6-small">
                                         
                                              <ul class="topmenu">
+                                                <ul class="topmenu upup">
                                                 <li><a href="index.html#about_us" class="smooth-scroll">О нас</a></li>
                                                 <li><a href="index.html#service" class="smooth-scroll">Наши услуги</a></li>
-                                                <li><a href="projects.html">Реализованные объекты</a></li>
-                                                <li><a href="docs.html">Допуски и лицензии</a></li>
-                                                <li><a href="recomendations.html">Рекомендации</a></li>
+                                                <li><a href="index.html#pluses" class="smooth-scroll">Преимущества</a></li>
+                                                <li><a href="index.html#partners" class="smooth-scroll">Наши партнеры</a></li>
+                                             </ul>
                                              </ul>
                                              
                                         </div>
                                         <div id="topmenu" class="col-2 col-12-small">
                                         
-                                             <ul class="topmenu">
+                                             <ul class="topmenu upup">
+                                                <li><a href="projects.html">Реализованные объекты</a></li>
+                                                <li><a href="docs.html">Допуски и лицензии</a></li>
                                                 <li><a href="vacancies.html">Вакансии</a></li>
                                              </ul>
                                              
@@ -91,18 +102,6 @@
                 <!-- BANNER -->
 					<section class="wrapper style1 color2 align-left">
 						<div class="inner">
-                            
-                            <div class="row">
-                                        <div class="col-2 off-12-small">
-                                        </div>
-                                        <div class="col-10 col-12-small">
-                                        
-                                             <h2 class="medium upup"><br><br>Контакты
-                                             <br><br>
-                                             </h2>
-                                        
-                                        </div>
-                            </div>
                             
                             <div class="row">
                                         <div class="col-2 col-12-small">
@@ -147,8 +146,9 @@
                                         <div id="topmenu" class="col-4 col-12-small">
                                         
                                              <ul class="topmenu upup">
-                                                <li>Комплексное проектирование<br>
-                                                и монтаж инженерных систем</li>
+                                                <li>Комплексное проектирование,<br>
+                                                монтаж и обслуживание<br>
+                                                инженерных систем</li>
                                              </ul>
                                         
                                         </div>
@@ -171,7 +171,7 @@
                                         </div>
                                         <div class="col-1 col-12-small">
                                         
-                                             <span id="logosymbol" class="image fit"><img src="imgs/elta_symbol_w.svg" onContextMenu="return false;" alt="" /></span>
+                                             <span id="logosymbol" class="image fit"><img src="imgs/elta_symbol_INFOE01.svg" onContextMenu="return false;" alt="" /></span>
                                              
                                         </div>
 						    </div>
