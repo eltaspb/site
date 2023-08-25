@@ -7515,32 +7515,44 @@ input, select, textarea {
 				border-top-color: white;
 			}
 
-		#wrapper > .color1 {
-			background-color: #e8e8ea;
+		#wrapper > .color01 {
+			background-color: #ffffff;
 		}
 
-		#wrapper > .color2 {
-			background-color: #d1d1d5;
-		}
-
-		#wrapper > .color3 {
-			background-color: #a4a4ab;
-		}
-
-		#wrapper > .color4 {
-			background-color: #1B1B2D;
-		}
-
-		#wrapper > .color5 {
-			background-color: #242435;
-		}
-
-		#wrapper > .color6 {
+		#wrapper > .color02 {
 			background-color: #F2F2F3;
 		}
 
-		#wrapper > .color7 {
+		#wrapper > .color10 {
+			background-color: #E8E8EA;
+		}
+
+		#wrapper > .color09 {
+			background-color: #D1D1D5;
+		}
+
+		#wrapper > .color08 {
+			background-color: #A4A4AB;
+		}
+
+		#wrapper > .color07 {
 			background-color: #868690;
+		}
+
+		#wrapper > .color06 {
+			background-color: #696975;
+		}
+
+		#wrapper > .color05 {
+			background-color: #52525F;
+		}
+
+		#wrapper > .color04 {
+			background-color: #3B3B4B;
+		}
+
+		#wrapper > .color03 {
+			background-color: #242435;
 		}
 
 		#wrapper.divided > * {
