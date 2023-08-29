@@ -393,7 +393,7 @@ input, select, textarea {
 		}
 	
 	    h1.major {
-		    font-size: 2.75rem;
+		    font-size: 2.35rem;
 	    }
 
 		h2 {
@@ -2469,7 +2469,7 @@ input, select, textarea {
 		}
 
 	.box {
-		border-color: #868690;
+		border-color: #D1D1D5;
 	}
 
 /* Button */
