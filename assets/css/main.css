@@ -7249,7 +7249,7 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert .box {
-				border-color: rgba(255, 255, 255, 0.25);
+				border-color: rgba(255, 255, 255, 0.35);
 			}
 
 			#wrapper > .invert input[type="submit"],
