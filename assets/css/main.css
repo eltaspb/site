@@ -2468,7 +2468,7 @@ input, select, textarea {
 		}
 
 	.box {
-		border-color: #D1D1D5;
+		border-color: rgba(27, 27, 45, 0.3);
 	}
 
 /* Button */
