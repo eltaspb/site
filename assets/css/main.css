@@ -1,20 +1,17 @@
 @font-face {
-           font-family: Elta Sans Light;
-           src:url(../webfonts/Elta-Sans-Light.woff2) format('woff2');
-           font-display: swap;
-           font-style: normal;
-        }
-
-@font-face {
-           font-family: Elta Sans Regular;
-           src:url(../webfonts/Elta-Sans-Regular.woff2) format('woff2');
+           font-family: ELTA Sans Regular;
+           src: url(../webfonts/ELTASans-Regular.woff) format('woff');
+		   src: url(../webfonts/ELTASans-Regular.woff2) format('woff2');
+		   src: url(../webfonts/ELTASans-Regular.ttf) format('truetype');
            font-display: swap;
            font-style: normal;
         }
 		
 @font-face {
-           font-family: Elta Sans Medium;
-           src:url(../webfonts/Elta-Sans-Medium.woff2) format('woff2');
+           font-family: ELTA Sans Medium;
+           src: url(../webfonts/ELTASans-Medium.woff) format('woff');
+		   src: url(../webfonts/ELTASans-Medium.woff2) format('woff2');
+		   src: url(../webfonts/ELTASans-Medium.ttf) format('truetype');
            font-display: swap;
            font-style: normal;
         }
@@ -184,7 +181,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #1B1B2D;
-		font-family: 'Elta Sans Regular', Helvetica, sans-serif;
+		font-family: 'ELTA Sans Regular', Helvetica, sans-serif;
 		font-weight: normal;
 		letter-spacing: 0;
 		line-height: 1.2;
@@ -204,7 +201,7 @@ input, select, textarea {
 		}
 
 	strong, b {
-		 font-family: 'Elta Sans Medium', Helvetica, sans-serif;
+		 font-family: 'ELTA Sans Medium', Helvetica, sans-serif;
 		 font-weight: normal;
 	}
 
@@ -238,12 +235,12 @@ input, select, textarea {
 		}
 		
 		.light {
-			font-family: 'Elta Sans Light', Helvetica, sans-serif;
+			font-family: 'ELTA Sans Regular', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 		
 		.medium {
-			font-family: 'Elta Sans Medium', Helvetica, sans-serif;
+			font-family: 'ELTA Sans Medium', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 
@@ -694,7 +691,7 @@ input, select, textarea {
 		}
 
 			.row > * {
-				padding: 0.5rem 0 0 0.5rem;
+				padding: 1rem 0 0 1rem;
 			}
 
 			.row.gtr-uniform {
@@ -937,7 +934,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 0.5rem 0 0 0.5rem;
+						padding: 1rem 0 0 1rem;
 					}
 
 					.row.gtr-uniform {
@@ -1182,7 +1179,7 @@ input, select, textarea {
 				}
 
 					.row > * {
-						padding: 0.5rem 0 0 0.5rem;
+						padding: 1rem 0 0 1rem;
 					}
 
 					.row.gtr-uniform {
