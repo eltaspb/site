@@ -193,7 +193,7 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out;
 		text-decoration: none;
-		color: rgba 
+		color: inherit;
 	}
 
 		a:hover {
@@ -234,12 +234,12 @@ input, select, textarea {
 			letter-spacing: 0;
 		}
 		
-		.light {
+		.light_t {
 			font-family: 'ELTA Sans Regular', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
 		
-		.medium {
+		.medium_t {
 			font-family: 'ELTA Sans Medium', Helvetica, sans-serif;
 		    font-weight: normal;
 		}
@@ -255,7 +255,7 @@ input, select, textarea {
 	}
 	
 	h2.special {
-		font-size: 3rem;
+		font-size: 2.2rem;
 		line-height: 1;
 	}
 
@@ -360,6 +360,10 @@ input, select, textarea {
 		h2 {
 			font-size: 2.25rem;
 		}
+		
+		h2.special {
+			font-size: 1.8rem;
+		}
 
 		h3 {
 			font-size: 1.25rem;
@@ -394,7 +398,11 @@ input, select, textarea {
 	    }
 
 		h2 {
-			font-size: 1.55rem;
+			font-size: 1.75rem;
+		}
+		
+		h2.special {
+			font-size: 1.5rem;
 		}
 
 		h3 {
@@ -415,14 +423,6 @@ input, select, textarea {
 
 	}
 	
-	@media screen and (max-width: 820px) {
-
-		p {
-			width: 80%;
-		}
-
-	}
-	
 	@media screen and (max-width: 736px) {
 
 		p {
@@ -436,12 +436,11 @@ input, select, textarea {
 		}
 
 		h2 {
-			font-size: 2rem;
+			font-size: 1.75rem;
 		}
 		
 		h2.special {
-		   font-size: 1.7rem;
-		   letter-spacing: -0.01em;
+		   font-size: 1.55rem;
 		   line-height: 1.1;
 	    }
 
@@ -467,20 +466,16 @@ input, select, textarea {
 
 	}
 
-	.f_color1 {
-		color: rgba(99, 122, 238, 1);
-	}
-	
 	input, select, textarea {
 		color: rgba(27, 27, 45, 1);
 	}
 
 	a {
-		color: rgba(27, 27, 45, 0.5);
+		color: rgba(27, 27, 45, 1);
 	}
 
 		a:hover {
-			color: rgba(27, 27, 45, 1);
+			color: rgba(27, 27, 45, 0.5);
 			border-bottom: none;
 		}
 
@@ -491,10 +486,6 @@ input, select, textarea {
 	code {
 		background: rgba(0, 0, 0, 0.05);
 		border-color: rgba(0, 0, 0, 0.2);
-	}
-
-	hr {
-		border-bottom-color: rgba(0, 0, 0, 0.9);
 	}
 
 /* Row */
@@ -3110,7 +3101,7 @@ input, select, textarea {
 			}
 			
 			ul.topmenu li a:hover {
-				color: rgba(27, 27, 45, 0.7);
+				color: rgba(27, 27, 45, 0.5);
 				border-bottom: none;
 			}
 
@@ -6811,8 +6802,7 @@ input, select, textarea {
 		justify-content: center;
 		margin: 3rem 0;
 		position: relative;
-		border: solid 1px;
-		border-radius: 4px;
+		border: solid 4px;
 	}
 
 		.items.style2 > * {
@@ -6824,9 +6814,10 @@ input, select, textarea {
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
+			background-color: #F2F2F3;
 			border-style: solid;
-			border-left-width: 1px;
-			border-top-width: 1px;
+			border-left-width: 4px;
+			border-top-width: 4px;
 		}
 
 		.items.style2.big > * {
@@ -6843,7 +6834,7 @@ input, select, textarea {
 			}
 
 		.items.style2.medium > * {
-			padding: 2.1875rem 2.1875rem 0.1875rem 2.1875rem ;
+			padding: 3rem 2rem 2rem 2rem ;
 			width: 33.33333%;
 		}
 
@@ -6896,15 +6887,15 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.items.style2.medium > *:nth-child(-n + 3) {
-				border-top-width: 1px;
+				border-top-width: 4px;
 			}
 
 			.items.style2.medium > *:nth-child(3n + 1) {
-				border-left-width: 1px;
+				border-left-width: 4px;
 			}
 
 			.items.style2.medium > * {
-				padding: 3.5rem 3.5rem 1.5rem 3.5rem ;
+				padding: 3rem 2rem 2rem 2rem ;
 				width: 50%;
 			}
 
@@ -6963,15 +6954,15 @@ input, select, textarea {
 				}
 
 			.items.style2.medium > *:nth-child(-n + 2) {
-				border-top-width: 1px;
+				border-top-width: 4px;
 			}
 
 			.items.style2.medium > *:nth-child(2n + 1) {
-				border-left-width: 1px;
+				border-left-width: 4px;
 			}
 
 			.items.style2.medium > * {
-				padding: 2.625rem 2.625rem 0.625rem 2.625rem ;
+				padding: 2.5rem 1.5rem 1.5rem 1.5rem ;
 				width: 100%;
 			}
 
@@ -7123,11 +7114,11 @@ input, select, textarea {
 	}
 
 	.items.style2 {
-		border-color: rgba(0, 0, 0, 0.2);
+		border-color: rgba(255, 255, 255, 1);
 	}
 
 		.items.style2 > * {
-			border-color: rgba(0, 0, 0, 0.2);
+			border-color: rgba(255, 255, 255, 1);
 		}
 
 /* Index */
